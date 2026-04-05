@@ -14,6 +14,8 @@ Do not skip this step.
 
 ## Stage 1: read and gather evidence
 
+Before drafting, load the blog frontmatter template and decide whether this paper needs explicit key judgments.
+
 ### Input priority
 
 - PDF first
@@ -64,15 +66,18 @@ Follow `code-mapping-guidelines.md` if code mapping is included.
 
 Draft these sections first:
 
+- blog frontmatter + `[TOC]`
 - `01 论文信息`
 - `02 论文主要贡献`
 - `03 论文创新点`
 
 Checks before moving on:
 
+- frontmatter is present and blog-ready
 - metadata came from the PDF first
 - contributions are not just a paraphrased abstract
 - innovation points are grounded in the paper
+- key judgments are used when they materially improve the note
 
 ## Stage 4: draft part B
 
@@ -108,11 +113,18 @@ Default order:
 3. downstream tasks
 4. optional extras if they materially help
 
+Prefer an evidence-chain structure when possible:
+
+- main experiment proves effectiveness
+- ablation explains mechanism
+- downstream tasks test transferability
+
 Checks before moving on:
 
 - not dumping table numbers mechanically
 - each major table has interpretation
 - key tables are inserted with captions and correct relative paths
+- the three experiment parts form a coherent evidence chain when the paper supports it
 
 ## Stage 6: merge
 

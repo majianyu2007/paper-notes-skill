@@ -39,6 +39,12 @@
   代码映射展示规范
 - `references/code-mapping-example.md`  
   代码映射写作示例
+- `references/key-judgment-guidelines.md`  
+  关键判断写法规范
+- `references/experiment-evidence-chain.md`  
+  实验部分证据链写法
+- `references/blog-frontmatter-template.md`  
+  博客成稿 frontmatter 模板
 
 ## 打包
 
@@ -71,3 +77,6 @@ python /home/majianyu/.nvm/versions/node/v24.14.1/lib/node_modules/openclaw/skil
 - 失败恢复与兜底规则
 - 代码映射展示规范
 - 代码映射写作示例
+- 关键判断写法规范
+- 实验部分证据链写法
+- 博客成稿 frontmatter 模板

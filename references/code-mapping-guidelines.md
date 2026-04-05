@@ -25,6 +25,33 @@ Skip it when the repository is weakly aligned, too generic, incomplete, or not h
 3. tensor shape changes / forward path when useful
 4. training / inference path when useful
 
+## Two output modes
+
+### Light mode
+
+Use when code exists and is worth mentioning, but a heavy implementation teardown is unnecessary.
+
+Typical contents:
+
+- entry files
+- relative paths
+- which module corresponds to which paper part
+- short explanation of the main flow
+
+### Heavy mode
+
+Use when code mapping is central to understanding the paper or the note is explicitly doing deep implementation analysis.
+
+Typical contents:
+
+- relative paths
+- formulas ↔ implementation mapping
+- input/output meaning
+- tensor shape changes
+- forward path
+- short selective code snippets with Chinese comments
+- code-after-judgment paragraph explaining what the snippet really proves
+
 ## What to show
 
 ### File paths

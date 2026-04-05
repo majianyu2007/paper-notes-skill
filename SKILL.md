@@ -21,7 +21,7 @@ Default process:
 
 1. Confirm initialization settings
 2. Read the PDF and recover missing metadata if needed
-3. Decide whether code analysis is worth including
+3. Decide whether key-judgment writing should be used and whether code analysis is worth including
 4. Collect figures/tables that will actually support the written analysis
 5. Draft the article in parts
 6. Merge, normalize wording, and run at least two review passes
@@ -129,6 +129,8 @@ Summarize what the whole work accomplished and why it matters.
 
 Do not turn this section into a bullet-only copy of the abstract. Reconstruct the contribution in readable Chinese based on the paper's full context.
 
+When the paper supports it, use key judgments such as problem-definition judgment, method-level judgment, operator-level judgment, or empirical judgment. Read `references/key-judgment-guidelines.md` for this style.
+
 #### `03 论文创新点`
 
 Prefer the paper's own claimed innovations / contributions.
@@ -149,6 +151,10 @@ Write it in detail. Explain:
 - training / inference flow when useful
 - code mapping when valuable
 
+Use strong analytical writing when the paper supports it. The preferred order is often: key judgment → mechanism explanation → evidence support.
+
+If code mapping is included, choose light mode or heavy mode from `references/code-mapping-guidelines.md`.
+
 If code mapping is included, show repository-relative file paths and make sure displayed code has Chinese explanation or Chinese comments.
 
 Do not over-split headings just to look formal. Keep enough structure to make the method readable.
@@ -164,6 +170,14 @@ Default priority:
 Other items such as visualizations, complexity, generalization, or failure cases are optional unless they materially strengthen the analysis.
 
 The goal is not to repeat the table values mechanically. Explain what the results support.
+
+Prefer an evidence-chain organization whenever the paper supports it:
+
+- main experiment answers whether the method works
+- ablation answers why it works
+- downstream tasks answer whether the gain transfers
+
+Read `references/experiment-evidence-chain.md` before drafting this section.
 
 #### `06 个人声明`
 
@@ -223,6 +237,7 @@ When following the user's current blog convention, default slug style is:
 Keep the markdown filename aligned with the slug unless the user overrides it.
 
 Read `references/article-template.md` before drafting. Use it as the exact output skeleton.
+Read `references/blog-frontmatter-template.md` before drafting. Treat blog frontmatter and `[TOC]` as part of the final article, not as optional decoration.
 
 ## Image and table selection
 
@@ -290,6 +305,9 @@ Read all of these before drafting or reviewing the article:
 - `references/failure-recovery.md`
 - `references/code-mapping-guidelines.md`
 - `references/code-mapping-example.md`
+- `references/key-judgment-guidelines.md`
+- `references/experiment-evidence-chain.md`
+- `references/blog-frontmatter-template.md`
 
 Use them respectively for:
 
@@ -302,3 +320,6 @@ Use them respectively for:
 - fallback and repair rules when the workflow becomes unreliable
 - code-to-paper mapping rules
 - concrete code-mapping writing example
+- analytical key-judgment writing
+- evidence-chain experiment writing
+- blog frontmatter and TOC structure

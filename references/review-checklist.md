@@ -6,6 +6,8 @@ Run this checklist before final delivery.
 
 ### Template
 
+- [ ] blog frontmatter exists
+- [ ] `[TOC]` exists
 - [ ] `01 论文信息` exists
 - [ ] `02 论文主要贡献` exists
 - [ ] `03 论文创新点` exists
@@ -28,9 +30,12 @@ Run this checklist before final delivery.
 - [ ] all important formulas are retained
 - [ ] equation tags follow the paper
 - [ ] losses are covered when relevant
+- [ ] key judgments are used when they improve analytical clarity
 - [ ] code mapping only appears when it truly matches the paper
+- [ ] light/heavy code mode is chosen appropriately
 - [ ] repository-relative paths are used when code files are shown
 - [ ] displayed code has Chinese comments or nearby Chinese explanation
+- [ ] code section ends with an evidence-based judgment when appropriate
 
 ### Experiments
 
@@ -38,6 +43,7 @@ Run this checklist before final delivery.
 - [ ] ablation is covered when present
 - [ ] downstream tasks are covered when present
 - [ ] tables are interpreted, not just copied
+- [ ] experiment section forms an evidence chain when the paper supports it
 
 ### Images and tables
 
@@ -70,6 +76,7 @@ Run this checklist before final delivery.
 ### Blog readiness
 
 - [ ] Typora-compatible Markdown
+- [ ] frontmatter fields are complete enough for the blog draft
 - [ ] slug/file naming follows the chosen convention
 - [ ] images/tables support the written discussion
 - [ ] final article can be published directly

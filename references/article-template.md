@@ -1,3 +1,22 @@
+---
+title: "【论文阅读 | 会议或期刊 年份 | 论文简称：中文标题或核心方法名】"
+slug: paper-venue-year-method-name
+published: YYYY-MM-DD
+description: "英文原题或简短描述"
+image: ''
+tags:
+  - 标签1
+  - 标签2
+  - 标签3
+category: 论文阅读
+draft: false
+lang: zh-CN
+pinned: false
+comment: true
+---
+
+[TOC]
+
 ## 01 论文信息
 
 <!-- 只写可靠元信息，优先来自 PDF；不确定就宁缺勿滥 -->
