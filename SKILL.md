@@ -100,6 +100,8 @@ Use staged generation such as:
 3. `05 实验分析`
 4. Merge and unify wording
 
+Follow `references/staged-workflow.md` as the default execution sequence.
+
 Keep the final article medium-length by default. Do not compress method/expression quality just to be short.
 
 ### 6. Write each section with a fixed purpose
@@ -234,6 +236,8 @@ If a figure or table is mentioned in the article body, make sure the screenshot/
 
 Run at least two acceptance passes before finalizing.
 
+Use `references/review-checklist.md` as the mandatory delivery checklist.
+
 Also run an anti-pattern check before delivery. Remove these if they appear:
 
 - empty praise or emotional filler
@@ -265,10 +269,16 @@ Check:
 
 ## Use these references while writing
 
-Read both files before drafting or reviewing the article:
+Read all of these before drafting or reviewing the article:
 
 - `references/hard-requirements.md`
 - `references/article-template.md`
+- `references/staged-workflow.md`
+- `references/review-checklist.md`
 
-The first contains the execution rules and review checklist.
-The second contains the exact blog-note skeleton.
+Use them respectively for:
+
+- hard constraints
+- exact output skeleton
+- staged generation order
+- final acceptance review

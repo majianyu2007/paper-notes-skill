@@ -98,6 +98,8 @@ Recommended staged drafting:
 3. `05 实验分析`
 4. Merge and unify wording
 
+See `staged-workflow.md` for the operational order and stage-by-stage checks.
+
 ## Acceptance workflow
 
 Run at least two review passes.
@@ -122,6 +124,8 @@ Check:
 - Check screenshot crops
 - Check that selected figures/tables truly match the discussed paragraph
 - Confirm blog-readiness
+
+See `review-checklist.md` for the explicit delivery checklist.
 
 ## Anti-patterns
 

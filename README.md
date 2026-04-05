@@ -22,6 +22,10 @@
   已确认的硬性规则与验收清单
 - `references/article-template.md`  
   固定输出模板
+- `references/staged-workflow.md`  
+  分段生成工作流
+- `references/review-checklist.md`  
+  最终验收清单
 
 ## 打包
 
@@ -40,4 +44,6 @@ python /home/majianyu/.nvm/versions/node/v24.14.1/lib/node_modules/openclaw/skil
 - 分段生成而不是一次性整文生成
 - 两轮验收
 - 固定输出模板引用
+- 分段生成工作流
 - 反 AI 味和截图质量检查
+- 独立终检清单
