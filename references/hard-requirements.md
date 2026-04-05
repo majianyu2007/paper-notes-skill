@@ -33,6 +33,7 @@ Default focus order:
 4. Training / inference flow when useful
 
 Do not default to generic repository structure tours.
+When code mapping is shown, prefer repository-relative file paths and add Chinese explanation or Chinese comments for displayed code.
 
 ## Writing template
 

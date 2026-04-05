@@ -58,6 +58,7 @@ When continuing, focus on:
 4. training / inference path when useful
 
 Skip generic repository descriptions.
+Follow `code-mapping-guidelines.md` if code mapping is included.
 
 ## Stage 3: draft part A
 
@@ -93,6 +94,8 @@ Checks before moving on:
 - equation numbering follows the paper
 - method figures are inserted where discussed
 - code paragraphs actually map back to the paper
+- repository-relative paths are shown when code files are mentioned
+- displayed code has Chinese comments or nearby Chinese explanation
 
 ## Stage 5: draft part C
 

@@ -35,6 +35,8 @@
   去 AI 味写作规范
 - `references/failure-recovery.md`  
   失败恢复与兜底规则
+- `references/code-mapping-guidelines.md`  
+  代码映射展示规范
 
 ## 打包
 
@@ -65,3 +67,4 @@ python /home/majianyu/.nvm/versions/node/v24.14.1/lib/node_modules/openclaw/skil
 - 图表处理规范
 - 去 AI 味写作规范
 - 失败恢复与兜底规则
+- 代码映射展示规范

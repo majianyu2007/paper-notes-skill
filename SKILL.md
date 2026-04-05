@@ -85,6 +85,8 @@ Default code-analysis lens:
 3. Explain the corresponding code path, tensor shape changes, and forward flow when useful
 4. Add training/inference flow only when it materially helps the note
 
+Read `references/code-mapping-guidelines.md` before writing any code-analysis section.
+
 Do not begin with a generic repository tour.
 Do not default to running or debugging code.
 If runtime verification is truly needed, ask the user first.
@@ -146,6 +148,8 @@ Write it in detail. Explain:
 - losses
 - training / inference flow when useful
 - code mapping when valuable
+
+If code mapping is included, show repository-relative file paths and make sure displayed code has Chinese explanation or Chinese comments.
 
 Do not over-split headings just to look formal. Keep enough structure to make the method readable.
 
@@ -284,6 +288,7 @@ Read all of these before drafting or reviewing the article:
 - `references/image-table-guidelines.md`
 - `references/anti-ai-style-guide.md`
 - `references/failure-recovery.md`
+- `references/code-mapping-guidelines.md`
 
 Use them respectively for:
 
@@ -294,3 +299,4 @@ Use them respectively for:
 - figure/table selection and cropping
 - anti-AI-voice cleanup
 - fallback and repair rules when the workflow becomes unreliable
+- code-to-paper mapping rules

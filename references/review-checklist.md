@@ -29,6 +29,8 @@ Run this checklist before final delivery.
 - [ ] equation tags follow the paper
 - [ ] losses are covered when relevant
 - [ ] code mapping only appears when it truly matches the paper
+- [ ] repository-relative paths are used when code files are shown
+- [ ] displayed code has Chinese comments or nearby Chinese explanation
 
 ### Experiments
 
