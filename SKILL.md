@@ -206,6 +206,8 @@ For images and tables inserted into the article, use captioned markdown links in
 
 Do not use arbitrary inline styles.
 
+Read `references/image-table-guidelines.md` before selecting, cropping, naming, or placing figures and tables.
+
 ### Slug and file naming
 
 When following the user's current blog convention, default slug style is:
@@ -237,6 +239,8 @@ If a figure or table is mentioned in the article body, make sure the screenshot/
 Run at least two acceptance passes before finalizing.
 
 Use `references/review-checklist.md` as the mandatory delivery checklist.
+
+Also use `references/anti-ai-style-guide.md` during the second review pass.
 
 Also run an anti-pattern check before delivery. Remove these if they appear:
 
@@ -275,6 +279,8 @@ Read all of these before drafting or reviewing the article:
 - `references/article-template.md`
 - `references/staged-workflow.md`
 - `references/review-checklist.md`
+- `references/image-table-guidelines.md`
+- `references/anti-ai-style-guide.md`
 
 Use them respectively for:
 
@@ -282,3 +288,5 @@ Use them respectively for:
 - exact output skeleton
 - staged generation order
 - final acceptance review
+- figure/table selection and cropping
+- anti-AI-voice cleanup

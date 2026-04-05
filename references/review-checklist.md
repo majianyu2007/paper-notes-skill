@@ -45,6 +45,7 @@ Run this checklist before final delivery.
 - [ ] captions are accurate
 - [ ] relative paths are correct
 - [ ] screenshot crops are tight and readable
+- [ ] figure/table handling follows `image-table-guidelines.md`
 
 ## Pass 2: publishability and anti-AI-voice
 
@@ -55,6 +56,7 @@ Run this checklist before final delivery.
 - [ ] no filler or repeated explanation
 - [ ] no stiff or generic summary language
 - [ ] tone remains objective
+- [ ] anti-AI cleanup follows `anti-ai-style-guide.md`
 
 ### Readability
 

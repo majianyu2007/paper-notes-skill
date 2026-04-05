@@ -26,6 +26,10 @@
   分段生成工作流
 - `references/review-checklist.md`  
   最终验收清单
+- `references/image-table-guidelines.md`  
+  图表选择与裁剪规范
+- `references/anti-ai-style-guide.md`  
+  去 AI 味写作规范
 
 ## 打包
 
@@ -47,3 +51,5 @@ python /home/majianyu/.nvm/versions/node/v24.14.1/lib/node_modules/openclaw/skil
 - 分段生成工作流
 - 反 AI 味和截图质量检查
 - 独立终检清单
+- 图表处理规范
+- 去 AI 味写作规范
