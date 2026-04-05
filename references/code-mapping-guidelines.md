@@ -87,6 +87,8 @@ Avoid:
 - absolute filesystem paths in the article body
 - code paragraphs that do not map back to the paper
 
+Read `code-mapping-example.md` if you need a concrete writing pattern.
+
 ## Mini checklist
 
 Before keeping a code section, verify:

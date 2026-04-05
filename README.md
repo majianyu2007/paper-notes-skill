@@ -37,6 +37,8 @@
   失败恢复与兜底规则
 - `references/code-mapping-guidelines.md`  
   代码映射展示规范
+- `references/code-mapping-example.md`  
+  代码映射写作示例
 
 ## 打包
 
@@ -68,3 +70,4 @@ python /home/majianyu/.nvm/versions/node/v24.14.1/lib/node_modules/openclaw/skil
 - 去 AI 味写作规范
 - 失败恢复与兜底规则
 - 代码映射展示规范
+- 代码映射写作示例

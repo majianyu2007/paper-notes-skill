@@ -289,6 +289,7 @@ Read all of these before drafting or reviewing the article:
 - `references/anti-ai-style-guide.md`
 - `references/failure-recovery.md`
 - `references/code-mapping-guidelines.md`
+- `references/code-mapping-example.md`
 
 Use them respectively for:
 
@@ -300,3 +301,4 @@ Use them respectively for:
 - anti-AI-voice cleanup
 - fallback and repair rules when the workflow becomes unreliable
 - code-to-paper mapping rules
+- concrete code-mapping writing example
