@@ -30,6 +30,8 @@
   图表选择与裁剪规范
 - `references/anti-ai-style-guide.md`  
   去 AI 味写作规范
+- `references/failure-recovery.md`  
+  失败恢复与兜底规则
 
 ## 打包
 
@@ -53,3 +55,4 @@ python /home/majianyu/.nvm/versions/node/v24.14.1/lib/node_modules/openclaw/skil
 - 独立终检清单
 - 图表处理规范
 - 去 AI 味写作规范
+- 失败恢复与兜底规则

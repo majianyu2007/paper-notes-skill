@@ -44,6 +44,8 @@ Keep a running list of:
 
 If text extraction is weak, repair understanding by revisiting PDF pages and figure/table regions.
 
+If any stage becomes unreliable, switch to `failure-recovery.md` before continuing.
+
 ## Stage 2: decide code-analysis scope
 
 Only continue if the repository clearly maps back to the paper and adds value.
@@ -146,3 +148,5 @@ Minimum checks:
 ## Stage 9: final output
 
 Only output the final markdown after both review passes are complete.
+
+If a section remains partially uncertain even after recovery, reduce claims and keep only reliable content.

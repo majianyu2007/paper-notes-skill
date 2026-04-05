@@ -70,6 +70,8 @@ Do not default to OCR-heavy assumptions for common IEEE / arXiv / ScienceDirect 
 
 If extraction quality is poor, recover by changing extraction approach, revisiting the original PDF pages, and using figures/tables to repair understanding before continuing.
 
+Read `references/failure-recovery.md` whenever metadata, formulas, screenshots, code mapping, or section quality becomes unreliable.
+
 ### 4. Handle code only when it is worth writing about
 
 If there is no repository, continue normally and skip code-related sections.
@@ -281,6 +283,7 @@ Read all of these before drafting or reviewing the article:
 - `references/review-checklist.md`
 - `references/image-table-guidelines.md`
 - `references/anti-ai-style-guide.md`
+- `references/failure-recovery.md`
 
 Use them respectively for:
 
@@ -290,3 +293,4 @@ Use them respectively for:
 - final acceptance review
 - figure/table selection and cropping
 - anti-AI-voice cleanup
+- fallback and repair rules when the workflow becomes unreliable

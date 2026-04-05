@@ -71,3 +71,4 @@ Run this checklist before final delivery.
 - [ ] slug/file naming follows the chosen convention
 - [ ] images/tables support the written discussion
 - [ ] final article can be published directly
+- [ ] any unresolved uncertainty has been reduced to conservative wording or removed
