@@ -20,6 +20,8 @@
   技能主说明
 - `references/hard-requirements.md`  
   已确认的硬性规则与验收清单
+- `references/article-template.md`  
+  固定输出模板
 
 ## 打包
 
@@ -33,4 +35,9 @@ python /home/majianyu/.nvm/versions/node/v24.14.1/lib/node_modules/openclaw/skil
 
 ## 状态
 
-已根据当前需求完成第一版技能定义。后续可继续补充更细的写作流程或自动化辅助脚本。
+已根据当前需求完成增强版技能定义。当前版本强化了：
+
+- 分段生成而不是一次性整文生成
+- 两轮验收
+- 固定输出模板引用
+- 反 AI 味和截图质量检查

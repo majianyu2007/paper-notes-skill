@@ -45,6 +45,8 @@ The final article must keep this structure:
 - `## 05 实验分析`
 - `## 06 个人声明`
 
+Use `article-template.md` as the exact starting skeleton.
+
 ## Style rules
 
 - Write in Chinese.
@@ -120,3 +122,13 @@ Check:
 - Check screenshot crops
 - Check that selected figures/tables truly match the discussed paragraph
 - Confirm blog-readiness
+
+## Anti-patterns
+
+Avoid these by default:
+
+- generic repository walkthroughs that do not map back to the paper
+- one-shot full article generation
+- loose paraphrase of the abstract instead of section-specific writing
+- invented innovation points not grounded in the paper
+- table-value dumping without interpretation

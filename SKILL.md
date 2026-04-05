@@ -13,6 +13,19 @@ Treat this as a staged writing workflow, not a one-shot generation task. Read th
 
 ## Default workflow
 
+### Workflow decision
+
+Use this skill when the user wants a paper-reading note that can be published directly as a blog draft.
+
+Default process:
+
+1. Confirm initialization settings
+2. Read the PDF and recover missing metadata if needed
+3. Decide whether code analysis is worth including
+4. Collect figures/tables that will actually support the written analysis
+5. Draft the article in parts
+6. Merge, normalize wording, and run at least two review passes
+
 ### 1. Confirm initialization settings
 
 If settings are not already fixed for the current run, ask the user for all three:
@@ -82,12 +95,71 @@ Never ask the model to write the whole article in one shot.
 
 Use staged generation such as:
 
-1. Paper info + main contributions + innovations
-2. Method section
-3. Experiment analysis
+1. `01-03` 论文信息 / 主要贡献 / 创新点
+2. `04 方法`
+3. `05 实验分析`
 4. Merge and unify wording
 
 Keep the final article medium-length by default. Do not compress method/expression quality just to be short.
+
+### 6. Write each section with a fixed purpose
+
+#### `01 论文信息`
+
+Include only reliable metadata gathered from the PDF first. When a field is unclear, prefer omission or cautious recovery over guessing.
+
+Typical contents:
+
+- paper title
+- authors
+- affiliations
+- venue / journal
+- DOI if clearly available
+- code link if clearly available
+
+#### `02 论文主要贡献`
+
+Summarize what the whole work accomplished and why it matters.
+
+Do not turn this section into a bullet-only copy of the abstract. Reconstruct the contribution in readable Chinese based on the paper's full context.
+
+#### `03 论文创新点`
+
+Prefer the paper's own claimed innovations / contributions.
+
+If the paper's novelty claims are weak or repetitive, rewrite them more clearly, but do not invent unrelated novelty points.
+
+#### `04 方法`
+
+This is the core of the note.
+
+Write it in detail. Explain:
+
+- problem framing
+- overall pipeline
+- core modules
+- key formulas
+- losses
+- training / inference flow when useful
+- code mapping when valuable
+
+Do not over-split headings just to look formal. Keep enough structure to make the method readable.
+
+#### `05 实验分析`
+
+Default priority:
+
+1. SOTA comparison tables
+2. Ablation tables
+3. Downstream-task results
+
+Other items such as visualizations, complexity, generalization, or failure cases are optional unless they materially strengthen the analysis.
+
+The goal is not to repeat the table values mechanically. Explain what the results support.
+
+#### `06 个人声明`
+
+Keep the user's fixed disclaimer wording.
 
 ## Output requirements
 
@@ -140,6 +212,8 @@ When following the user's current blog convention, default slug style is:
 
 Keep the markdown filename aligned with the slug unless the user overrides it.
 
+Read `references/article-template.md` before drafting. Use it as the exact output skeleton.
+
 ## Image and table selection
 
 By default, save and insert:
@@ -159,6 +233,14 @@ If a figure or table is mentioned in the article body, make sure the screenshot/
 ## Acceptance workflow
 
 Run at least two acceptance passes before finalizing.
+
+Also run an anti-pattern check before delivery. Remove these if they appear:
+
+- empty praise or emotional filler
+- obvious AI-sounding transitions
+- repeated explanation of the same point
+- screenshots that do not match the paragraph using them
+- code-analysis paragraphs that do not truly map back to the paper
 
 ### Acceptance pass 1: structure and correctness
 
@@ -181,6 +263,12 @@ Check:
 - Ensure inserted figures/tables are the right ones, not arbitrary nearby content
 - Ensure the final markdown can be published directly as a blog draft
 
-## Use this reference while writing
+## Use these references while writing
 
-Read `references/hard-requirements.md` before drafting or reviewing the article. It contains the user-confirmed workflow constraints and acceptance checklist for this skill.
+Read both files before drafting or reviewing the article:
+
+- `references/hard-requirements.md`
+- `references/article-template.md`
+
+The first contains the execution rules and review checklist.
+The second contains the exact blog-note skeleton.
