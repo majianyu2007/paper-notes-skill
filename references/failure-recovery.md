@@ -31,7 +31,7 @@ Do not pretend the extracted text is trustworthy when it clearly is not.
 Symptoms:
 
 - missing DOI
-n- affiliations unclear
+- affiliations unclear
 - code link unclear
 
 Fallback order:
@@ -82,14 +82,17 @@ Symptoms:
 - code names differ heavily from the paper
 - no obvious module/formula mapping
 - repository looks like a generalized toolbox rather than the paper implementation
+- multiple papers seem to share the same repository
 
 Fallback order:
 
 1. search only for direct evidence of mapping
-2. if mapping remains weak, omit code-analysis writing
-3. continue with the paper note itself
+2. keep only the repository parts that map directly to this paper's modules, formulas, or training/inference path
+3. if mapping remains weak, omit code-analysis writing
+4. continue with the paper note itself
 
 Do not force code paragraphs that cannot be justified.
+Do not write a generic toolbox walkthrough just because a repository exists.
 
 ### 6. Figures or tables are hard to crop cleanly
 

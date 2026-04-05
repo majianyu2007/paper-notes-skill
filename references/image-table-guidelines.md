@@ -34,6 +34,8 @@ Capture when the table supports:
 - downstream-task conclusions
 - complexity comparison only if it is discussed in the article
 
+For table screenshots, prefer slightly larger crops over aggressive trimming. Never cut away table headers, method names, best-value markers, significance markers, or other evidence needed to read the table correctly.
+
 ### Visualizations
 
 Capture only when they prove something used in the text, such as:
