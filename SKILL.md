@@ -108,6 +108,8 @@ Follow `references/staged-workflow.md` as the default execution sequence.
 
 Keep the final article medium-length by default. Do not compress method/expression quality just to be short.
 
+Read `references/section-length-guidelines.md` before drafting. Keep each staged output within a reasonable size range.
+
 ### 6. Write each section with a fixed purpose
 
 #### `01 论文信息`
@@ -237,7 +239,7 @@ When following the user's current blog convention, default slug style is:
 Keep the markdown filename aligned with the slug unless the user overrides it.
 
 Read `references/article-template.md` before drafting. Use it as the exact output skeleton.
-Read `references/blog-frontmatter-template.md` before drafting. Treat blog frontmatter and `[TOC]` as part of the final article, not as optional decoration.
+Read `references/blog-frontmatter-template.md` before drafting. Default to including blog frontmatter and `[TOC]` when the output is intended as a blog-ready article. If the user explicitly wants正文草稿 only, frontmatter may be omitted.
 
 ## Image and table selection
 
@@ -308,6 +310,7 @@ Read all of these before drafting or reviewing the article:
 - `references/key-judgment-guidelines.md`
 - `references/experiment-evidence-chain.md`
 - `references/blog-frontmatter-template.md`
+- `references/section-length-guidelines.md`
 
 Use them respectively for:
 
@@ -323,3 +326,4 @@ Use them respectively for:
 - analytical key-judgment writing
 - evidence-chain experiment writing
 - blog frontmatter and TOC structure
+- section-length control

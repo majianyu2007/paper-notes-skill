@@ -45,6 +45,8 @@
   实验部分证据链写法
 - `references/blog-frontmatter-template.md`  
   博客成稿 frontmatter 模板
+- `references/section-length-guidelines.md`  
+  分段与章节字数控制规范
 
 ## 打包
 
@@ -80,3 +82,4 @@ python /home/majianyu/.nvm/versions/node/v24.14.1/lib/node_modules/openclaw/skil
 - 关键判断写法规范
 - 实验部分证据链写法
 - 博客成稿 frontmatter 模板
+- 分段与章节字数控制规范

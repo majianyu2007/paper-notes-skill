@@ -72,6 +72,7 @@ Run this checklist before final delivery.
 - [ ] terminology is consistent
 - [ ] paragraphs are not bloated
 - [ ] medium final length is maintained unless the user asked otherwise
+- [ ] section lengths are proportionate and follow `section-length-guidelines.md`
 
 ### Blog readiness
 

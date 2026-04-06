@@ -62,6 +62,8 @@ When continuing, focus on:
 Skip generic repository descriptions.
 Follow `code-mapping-guidelines.md` if code mapping is included.
 
+Read `section-length-guidelines.md` before generating any part.
+
 ## Stage 3: draft part A
 
 Draft these sections first:
@@ -73,11 +75,12 @@ Draft these sections first:
 
 Checks before moving on:
 
-- frontmatter is present and blog-ready
+- frontmatter is present and blog-ready when the target is a publishable blog draft
 - metadata came from the PDF first
 - contributions are not just a paraphrased abstract
 - innovation points are grounded in the paper
 - key judgments are used when they materially improve the note
+- Part A length stays controlled and does not over-expand into method details
 
 ## Stage 4: draft part B
 
@@ -101,6 +104,7 @@ Checks before moving on:
 - code paragraphs actually map back to the paper
 - repository-relative paths are shown when code files are mentioned
 - displayed code has Chinese comments or nearby Chinese explanation
+- Part B is the longest part, but still proportionate
 
 ## Stage 5: draft part C
 
@@ -125,6 +129,7 @@ Checks before moving on:
 - each major table has interpretation
 - key tables are inserted with captions and correct relative paths
 - the three experiment parts form a coherent evidence chain when the paper supports it
+- Part C is substantial enough to support the paper's claims, but shorter than an overgrown method section
 
 ## Stage 6: merge
 
